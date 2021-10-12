@@ -1,7 +1,6 @@
 package craps.dominio;
 
 public class Craps {
-
 	private int soma, ponto, vencedor;
 	private boolean primeiraRodada = true;
 	private Dado dado = new Dado();
@@ -9,7 +8,7 @@ public class Craps {
 	public boolean isFimDeJogo() {
 		return vencedor == 1 || vencedor == 2;
 	}
-	
+
 	public int getSoma() {
 		return soma;
 	}
@@ -40,5 +39,4 @@ public class Craps {
 		}
 		return soma;
 	}
-
 }

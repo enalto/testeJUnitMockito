@@ -89,7 +89,7 @@ public class CrapsTest {
 		craps.rolarDados();
 		assertTrue(craps.isFimDeJogo());
 		assertThat(craps.getSoma(), is(equalTo(7)));
-		
+
 		assertThat(craps.getVencedor(), is(equalTo(2)));
 	}
 
@@ -131,7 +131,7 @@ public class CrapsTest {
 		craps.rolarDados();
 		assertTrue(craps.isFimDeJogo());
 		assertThat(craps.getSoma(), is(equalTo(4)));
-		
+
 		assertThat(craps.getVencedor(), is(equalTo(1)));
 	}
 
